@@ -6,10 +6,49 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXFileReference section */
+		E100540E2B965557006F056D /* SwiftBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftBasics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E100540F2B9658C2006F056D /* BasicTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BasicTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E10054112B967DE1006F056D /* Variable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E10054122B9685E9006F056D /* IfStatement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IfStatement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E13CCB842B9500EE002273A4 /* sinleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sinleton.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E13CCB852B95056E002273A4 /* Delegation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Delegation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E13CCB862B951012002273A4 /* DependencyInjection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DependencyInjection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E14DAD382B88E671001AF1B9 /* array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = array.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E14DAD8D2B8A80F1001AF1B9 /* protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E14DAD8E2B8CD6A9001AF1B9 /* temp.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = temp.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E14DAD8F2B8D1C11001AF1B9 /* dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = dictionary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E14DAD902B8D23E8001AF1B9 /* string.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = string.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E14DAD912B8D4B50001AF1B9 /* enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E14DAD922B8D5617001AF1B9 /* ARC&retainCycle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ARC&retainCycle.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
+		E100540D2B965527006F056D /* SwiftBasics */ = {
+			isa = PBXGroup;
+			children = (
+				E100540E2B965557006F056D /* SwiftBasics.playground */,
+				E100540F2B9658C2006F056D /* BasicTypes.playground */,
+				E10054112B967DE1006F056D /* Variable.playground */,
+				E10054122B9685E9006F056D /* IfStatement.playground */,
+			);
+			path = SwiftBasics;
+			sourceTree = "<group>";
+		};
 		E14DAD312B88E655001AF1B9 = {
 			isa = PBXGroup;
 			children = (
+				E100540D2B965527006F056D /* SwiftBasics */,
+				E13CCB862B951012002273A4 /* DependencyInjection.playground */,
+				E13CCB852B95056E002273A4 /* Delegation.playground */,
+				E13CCB842B9500EE002273A4 /* sinleton.playground */,
+				E14DAD922B8D5617001AF1B9 /* ARC&retainCycle.playground */,
+				E14DAD912B8D4B50001AF1B9 /* enum.playground */,
+				E14DAD902B8D23E8001AF1B9 /* string.playground */,
+				E14DAD8F2B8D1C11001AF1B9 /* dictionary.playground */,
+				E14DAD8E2B8CD6A9001AF1B9 /* temp.playground */,
+				E14DAD8D2B8A80F1001AF1B9 /* protocol.playground */,
+				E14DAD382B88E671001AF1B9 /* array.playground */,
 			);
 			sourceTree = "<group>";
 		};
