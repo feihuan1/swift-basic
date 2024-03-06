@@ -75,3 +75,15 @@ if d || e {
 if (likeCount > 3 && commentCount > 0) || viewCount > 50 {
     print("good video")
 }
+
+if likeCount > 3 || e {
+    print("Bool vs num in if statement")
+}
+
+if likeCount > 5 {
+    print("like is more than 5")
+} else if likeCount > 2 {// this will only run if first one fails , wont run even its true when first condition is already true
+    print("morethan 2 like is not bad")
+} else {
+    print("bad video")
+}
