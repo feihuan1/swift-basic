@@ -3,7 +3,7 @@ import Foundation
 // Structs are fast!
 //Structs are stored in the stack(memory)
 // Object in Stuct are Value types
-// Value types are copied & mutated
+// Value types are copied & mutated , everytime change a struct instance, it gets destroyed and re-created
 
 struct Quiz {
     let title: String
@@ -32,7 +32,9 @@ struct Quiz {
 
 let myObject: String = "Hello World"
 
-let myQuiz = Quiz(title: "Quiz 1", dateCreate: .now, isPremium: true)
+
+// change instence in struct will re-create instance
+var myQuiz = Quiz(title: "Quiz 1", dateCreate: .now, isPremium: true)
 
 // push option key to generate all params
 //let myQuiz2 = Quiz()
@@ -47,6 +49,7 @@ struct UserModel {
     let isPremium: Bool
 }
 
+//need use var if want make change of instence becuase it create new one, its not the same one so let won't work
 var user1: UserModel = UserModel(name: "Nick", isPremium: false)
 
 //user1.isPremium = true // will be error because struct declare it as let
